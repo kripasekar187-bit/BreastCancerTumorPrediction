@@ -1,43 +1,48 @@
 Breast Cancer Tumor Prediction 🎗️
+
 This project utilizes Machine Learning to classify breast cancer tumors as either Malignant (cancerous) or Benign (non-cancerous). By analyzing various features of cell nuclei, the model provides a highly accurate diagnostic tool to assist medical professionals.
 
 📊 Project Overview
+
 Early detection is critical in breast cancer treatment. This project implements a data-driven approach to automate the classification process using the Wisconsin Breast Cancer (Diagnostic) Dataset.
 
 🛠️ Tech Stack
-Language: Python
 
-Data Analysis: Pandas, NumPy
+1.Language: Python
 
-Visualization: Matplotlib, Seaborn
+2.Data Analysis: Pandas, NumPy
 
-Machine Learning: Scikit-Learn
+3.Visualization: Matplotlib, Seaborn
 
-Environment: Jupyter Notebook / Google Colab
+4.Machine Learning: Scikit-Learn
+
+5.Environment: Jupyter Notebook / Google Colab
 
 🧬 Dataset Features
-The model analyzes 30 different features extracted from digitized images of fine needle aspirates (FNA) of breast masses, including:
 
-Radius (mean of distances from center to points on the perimeter)
+1.The model analyzes 30 different features extracted from digitized images of fine needle aspirates (FNA) of breast masses, including:
 
-Texture (standard deviation of gray-scale values)
+2.Radius (mean of distances from center to points on the perimeter)
 
-Perimeter
+3.Texture (standard deviation of gray-scale values)
 
-Area
+4.Perimeter
 
-Smoothness (local variation in radius lengths)
+5.Area
+
+6.Smoothness (local variation in radius lengths)
 
 🚀 Workflow
-Exploratory Data Analysis (EDA): Visualizing data distribution and feature correlations.
 
-Data Cleaning: Handling missing values and encoding categorical labels (M=1, B=0).
+1.Exploratory Data Analysis (EDA): Visualizing data distribution and feature correlations.
 
-Feature Scaling: Standardizing data to improve model convergence.
+2.Data Cleaning: Handling missing values and encoding categorical labels (M=1, B=0).
 
-Model Training: Evaluating multiple algorithms including Logistic Regression and Random Forest.
+3.Feature Scaling: Standardizing data to improve model convergence.
 
-Evaluation: Measuring performance using Accuracy, Precision, Recall, and the Confusion Matrix.
+4.Model Training: Evaluating multiple algorithms including Logistic Regression and Random Forest.
+
+5.Evaluation: Measuring performance using Accuracy, Precision, Recall, and the Confusion Matrix.
 
 💻 How to Use
 Clone the repo:
